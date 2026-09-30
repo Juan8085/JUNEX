@@ -16,11 +16,11 @@ export default function HeroAndFlagship() {
             </span>
           </h1>
           <p className="mt-6 text-junex-slateText text-lg leading-relaxed">
-            Transformamos y optimizamos la gestión operativa y financiera de organizaciones municipales, veredales y asociaciones rurales en Colombia mediante soluciones tecnológicas integrales[cite: 2].
+            Transformamos y optimizamos la gestión operativa y financiera de organizaciones municipales, veredales y asociaciones en Colombia mediante soluciones tecnológicas integrales[cite: 2].
           </p>
           <div className="mt-8 flex gap-4">
-            <a href="#aquarural" className="bg-junex-cyan text-junex-dark px-8 py-3.5 rounded-xl font-bold hover:bg-cyan-300 transition shadow-xl shadow-junex-cyan/10">
-              Ver AquaRural
+            <a href="https://aquarural-placeholder.com" target="_blank" rel="noopener noreferrer" className="bg-junex-cyan text-junex-dark px-8 py-3.5 rounded-xl font-bold hover:bg-cyan-300 transition shadow-xl shadow-junex-cyan/10">
+              Ver AquaRural ↗
             </a>
             <a href="#contacto" className="border border-slate-700 hover:border-junex-cyan px-8 py-3.5 rounded-xl font-bold transition text-white">
               Agendar Asesoría
@@ -41,7 +41,7 @@ export default function HeroAndFlagship() {
             </div>
           </div>
           <p className="text-junex-slateText text-sm leading-relaxed mb-6">
-            Plataforma avanzada para la gestión de acueductos veredales. Automatiza la lectura de medidores, control de usuarios, facturación y recaudo bancarizado con capacidades de funcionamiento offline diseñadas para zonas rurales[cite: 2].
+            Plataforma web avanzada para la gestión integral de acueductos veredales. Automatiza el control de usuarios, facturación digital y recaudo bancarizado con trazabilidad y alta disponibilidad en la nube[cite: 2].
           </p>
           <div className="grid grid-cols-2 gap-4 border-t border-slate-800/80 pt-6">
             <div>
@@ -49,8 +49,8 @@ export default function HeroAndFlagship() {
               <span className="text-xs text-junex-slateText">Control Administrativo</span>
             </div>
             <div>
-              <span className="block text-2xl font-black text-junex-cyan">Offline</span>
-              <span className="text-xs text-junex-slateText">Resiliente y Sincronizable</span>
+              <span className="block text-2xl font-black text-junex-cyan">Cloud / Web</span>
+              <span className="text-xs text-junex-slateText">Recaudo Bancarizado</span>
             </div>
           </div>
         </div>
