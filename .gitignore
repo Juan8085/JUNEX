@@ -1,0 +1,12 @@
+# Dependencias de Node
+**/node_modules/
+**/dist/
+**/build/
+
+# Variables de entorno (Credenciales de Base de Datos)
+**/.env
+*.env
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
