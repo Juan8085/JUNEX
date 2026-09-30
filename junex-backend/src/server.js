@@ -1,10 +1,9 @@
+require('dotenv').config();
 const express = require('express');
-const dotenv = require('dotenv');
 const cors = require('cors');
 const connectDB = require('./config/db');
 const leadRoutes = require('./routes/leadRoutes');
 
-dotenv.config();
 connectDB();
 
 const app = express();
@@ -12,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Rutas
+// Rutas de Leads y Notificaciones
 app.use('/api/leads', leadRoutes);
 
 app.get('/', (req, res) => {

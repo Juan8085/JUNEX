@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroAndFlagship from './components/HeroAndFlagship';
 import StrategicSections from './components/StrategicSections';
+import ValuesSection from './components/ValuesSection';
 import ProjectsSection from './components/ProjectsSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
@@ -12,6 +13,7 @@ export default function App() {
       <Navbar />
       <HeroAndFlagship />
       <StrategicSections />
+      <ValuesSection />
       <ProjectsSection />
       <TestimonialsSection />
       <ContactSection />
